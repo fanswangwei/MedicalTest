@@ -1,0 +1,42 @@
+{
+    "pages": [{
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+        {
+            "path": "pages/mine/index",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#666",
+        "selectedColor": "#666",
+        "backgroundColor": "#fff",
+        "borderStyle": "white",
+        "spacing": "5px",
+        "height": "55px",
+        "fontSize": "12px",
+        "list": [{
+                "pagePath": "pages/home/index",
+                "text": "题库",
+                "iconPath": "./static/images/icon/icon_index.png",
+                "selectedIconPath": "./static/images/icon/icon_index_active.png"
+            },
+            {
+                "pagePath": "pages/mine/index",
+                "text": "我的",
+                "iconPath": "./static/images/icon/icon_mine.png",
+                "selectedIconPath": "./static/images/icon/icon_mine_active.png"
+            }
+        ]
+    }
+}
